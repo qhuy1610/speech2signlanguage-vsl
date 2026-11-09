@@ -1,0 +1,18 @@
+{
+ "MODEL_NAME": "VietAI/vit5-base",
+ "PREFIX": "dịch sang gloss: ",
+ "MAX_LEN": 128,
+ "EPOCHS": 15,
+ "LR": 0.0001,
+ "BATCH_PER_GPU": 16,
+ "GRAD_ACCUM": 1,
+ "N_GPU": 2,
+ "EFFECTIVE_BATCH": 32,
+ "FP16": true,
+ "SEED": 42,
+ "SPLIT_MODE": "stratified",
+ "TEXT_IS_PLAIN": false,
+ "best_checkpoint": "/kaggle/working/gloss_out/checkpoints/checkpoint-3879",
+ "transformers": "4.57.6",
+ "torch": "2.11.0+cu130"
+}
